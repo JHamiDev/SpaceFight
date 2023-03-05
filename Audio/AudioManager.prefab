@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1030405870695524710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7912484810833243541}
+  - component: {fileID: 2097465166500368898}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7912484810833243541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030405870695524710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2097465166500368898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030405870695524710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5d77885a84b934f9170aab732e7fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyDeathSound
+    clip: {fileID: 8300000, guid: 2075596cf9493134b9f8a3ca65e7bff6, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: DamageSound
+    clip: {fileID: 8300000, guid: e50ca7285dbb4324d8f07b106e438fd1, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: ShootSound
+    clip: {fileID: 8300000, guid: 14af0bb8eafe51a4d84aa66e8977dcc1, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: DashSound
+    clip: {fileID: 8300000, guid: fe7a366d4bff809468c9fe8467a7bbe2, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: HitSound
+    clip: {fileID: 8300000, guid: a08f0fb67c268eb469a208d0b909e083, type: 3}
+    volume: 0.9
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hover Over
+    clip: {fileID: 8300000, guid: be146bb1c3f45a54c99dd4a77e0ea1b4, type: 3}
+    volume: 0.8
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: Button Click
+    clip: {fileID: 8300000, guid: 99869f4c186a1dc488a0ec42ff75b7f0, type: 3}
+    volume: 0.8
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: DeathSound
+    clip: {fileID: 8300000, guid: 0a901f3f6340da047b871329224c92fd, type: 3}
+    volume: 0.8
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: LevelCompleteSound
+    clip: {fileID: 8300000, guid: 3e9456cdf237e3d43ae18451e013b3a6, type: 3}
+    volume: 0.8
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: HealthSound
+    clip: {fileID: 8300000, guid: 503020304dfb82b40962843c25494cbb, type: 3}
+    volume: 0.8
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: PowerupSound
+    clip: {fileID: 8300000, guid: 3f1402bc74fcacc4a9aef83a1f32cd54, type: 3}
+    volume: 0.8
+    pitch: 0.9
+    source: {fileID: 0}
+  audioMixerGroup: {fileID: 24300002, guid: 8ed0729976c3cb04d944efbe01349006, type: 2}
