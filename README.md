@@ -1,5 +1,5 @@
 # SpaceFight
-*Space Fight* is a 2D top-down space themed shooter game where you and your spaceship must fight and survive against oncoming waves of enemy ships that are trying to destroy you. Your ship is surrounded by asteroids so you are unable to flee and have no other choice but to fight to survive.
+*Space Fight* is a 2D top-down space themed shooter game made in the Unity game engine, where you and your spaceship must fight and survive against oncoming waves of enemy ships that are trying to destroy you. Your ship is surrounded by asteroids so you are unable to flee and have no other choice but to fight to survive.
 ## Gameplay
 The player must fight against attacking enemy spaceships by shooting at them with their laser-bullet cannon. Both the player and the enemies have a certain amount of health and if a spaceship's health is fully depleted, the spaceship will be destroyed. The goal of the player is to destroy the enemy spaceships without being destroyed themself.
 
